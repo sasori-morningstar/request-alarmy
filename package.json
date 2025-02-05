@@ -1,0 +1,16 @@
+{
+  "name": "request-alarmy",
+  "version": "1.0.0",
+  "description": "API to alarm user when target website returns true as response (status 200)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "type": "module",
+  "author": "sasori-morningstar",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2"
+  }
+}
